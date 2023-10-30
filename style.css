@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;  
+    color: #212521;
+    
+}
+
+#bar{
+    background-color: #4aa3a3;
+    font: size 15px; ;
+    font-family: Russo One;
+    box-shadow: 1px 1px 10px 2px #3a5f5f;
+    margin-top:10px ;
+}
+
+#editor{
+    width: 100%;
+    min-height: 200px;
+    background-color: aqua;
+    padding: 5px;
+    margin-top: -8px;
+    outline: none;
+    
+
+}
+.wrapper{
+    background-color: lightblue;
+    
+}
+.editor-container{
+    text-align: center;
+    width: 600px;
+    resize: vertical;
+    margin: auto;
+    
+}
+.previwer-container{
+    max-width:800px;
+    min-height: 200px;
+    padding: 5px;
+    margin: auto;
+    
+}
+
+#preview{
+    background-color: aqua;
+    overflow-wrap:break-word ;
+    text-align: left;
+    padding: 5px ;
+    margin-top: -8px;
+    min-height:300px;
+    width: 100%;
+    
+}
+#preview code{
+    background-color: white;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+#preview pre{
+    background-color: white;
+    padding: 4px;
+}
+#preview img{
+    display: block;
+    max-width: 90%;
+    margin: 2rem auto;
+}
+/**.token.keyword {
+    color: #07a;
+}
+.token.class-name, .token.function {
+    color: #dd4a68;
+}*/
+h1 {
+    text-align: left;
+    
+    
+}
